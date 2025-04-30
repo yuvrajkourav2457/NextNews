@@ -1,7 +1,7 @@
 import NewsFeatures from "@/components/Features";
 import HeroSection from "@/components/Hero";
-import { NewspaperIcon, Webhook } from "lucide-react";
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -23,11 +23,12 @@ export default function Home() {
     
     {/* <div className="bg-black h-1 opacity-10"> */}
     {/* </div> */}
-
+       
+    <Navbar />
     <HeroSection />
     
     <NewsFeatures />
-
+    <Footer/>
     </>
   );
 }

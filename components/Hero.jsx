@@ -17,7 +17,7 @@ const HeroSection = () => {
         like personalized content tailored to your interests, real-time updates ensuring you never miss breaking stories, 
         and concise summaries to keep you informed efficiently.</p>
       <div className='flex gap-6'>
-        <button className='cursor-pointer px-5 py-2 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold ease-linear duration-200 hover:scale-105'>Get Started</button>
+        <button className='cursor-pointer px-5 py-2 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold ease-linear duration-200 hover:scale-105'>About Us</button>
         <button className='cursor-pointer px-5 py-2 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold ease-linear duration-200 hover:scale-105'>Learn More</button>
       </div>   
     </div>
