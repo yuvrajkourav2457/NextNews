@@ -75,13 +75,14 @@ const signup = () => {
             />
           </div>
         </div>
-        <button
+        <Link href={'/dashboard'}><button
           type="submit"
           className="w-full bg-purple-600 cursor-pointer text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center gap-2 group"
         >
-          Sign In
+          Signup
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </button>
+        </Link>
       </form>
       <div className="mt-6 text-center">
         <Link href={'/login'}><button
