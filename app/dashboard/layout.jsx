@@ -9,7 +9,7 @@ const DashboardLayout = ({ children }) => {
         <Header/>
         <div style={{ display: 'flex', padding: '4px' }}>
             <Sidebar />
-            <main style={{ padding: '4px' }}>
+            <main style={{ padding: '4px', height:"85vh" , overflowY: 'auto' }}>
                 {children}
             </main>
         </div>
