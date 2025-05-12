@@ -6,7 +6,7 @@ import { Newspaper} from 'lucide-react'
 
 const Navbar = () => {
   return (
-    <nav className='flex p-4 items-center gap-10 justify-between border-b border-gray-200 rounded-b-xl sticky top-0 bg-white z-50'>
+    <nav className='flex p-4 mb-1 items-center gap-10 justify-between border-b border-gray-300 rounded-b-xl sticky top-0 bg-white z-50'>
 
    
        <section className='flex items-center'>

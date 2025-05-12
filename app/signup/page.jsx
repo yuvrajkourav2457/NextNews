@@ -77,7 +77,7 @@ const signup = () => {
         </div>
         <Link href={'/dashboard'}><button
           type="submit"
-          className="w-full bg-purple-600 cursor-pointer text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center gap-2 group"
+          className="w-full bg-purple-600 cursor-pointer text-white py-2 px-4 rounded-sm hover:bg-purple-700 transition-colors flex items-center justify-center gap-2 group"
         >
           Signup
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
